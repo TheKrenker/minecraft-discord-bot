@@ -3,6 +3,8 @@ Minecraft Server Status Discord Bot
 
 A custom discord bot providing functionality for interacting with Minecraft servers and a discord community
 
+![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931918682924396544/unknown.png)
+
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes
 
