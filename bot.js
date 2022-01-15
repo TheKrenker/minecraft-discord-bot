@@ -106,17 +106,17 @@ exports.start = function(SETUP) {
   const UpdateEmbed = function() {
     let dot = TICK_N % 2 === 0 ? 'StoneMC' : 'Minecraft';
     let embed = new Discord.RichEmbed()
-    .setAuthor("StoneMC Server Status", "https://cdn.discordapp.com/attachments/786291224189206548/931646289450512404/stone.png")
-    .setColor(0x42f563)
-    .setFooter("StoneMC")
-    .setTimestamp(new Date())
-    .addField('Quick Links?','[Website](https://stonemc.net) | [Store](https://stonemc.tebex.io/) | [Vote](https://stonemc.net/vote.php)\n\u200b\n')
-    .addField('How can i join?','I WILL CHANGE THIS LATER\n\u200b\n')
+    embed.setAuthor("StoneMC Server Status", "https://cdn.discordapp.com/attachments/786291224189206548/931646289450512404/stone.png")
+    embed.setColor(0x42f563)
+    embed.setFooter("StoneMC")
+    embed.setTimestamp(new Date())
     if (STATUS !== undefined)
     {
       embed.addField('Important Server Message',`${STATUS}\n\u200b\n`);
       embed.setColor(0xeff542)
     }
+    embed.addField('Quick Links?','[Website](https://stonemc.net) | [Store](https://stonemc.tebex.io/) | [Vote](https://stonemc.net/vote.php)\n\u200b\n')
+    // embed.addField('How can i join?','I WILL CHANGE THIS LATER\n\u200b\n')
     return embed;
   };
 
@@ -130,8 +130,8 @@ exports.start = function(SETUP) {
       .then((result) => {
         // console.log(result)
         let embed = UpdateEmbed()
-        .addField('Server Status', 'Online', true)
-        .addField('Online Players', result.players.online + '/' + result.players.max + '\n\u200b\n', true)
+        embed.addField('Server Status', 'Online', true)
+        embed.addField('Online Players', result.players.online + '/' + result.players.max + '\n\u200b\n', true)
         if (SHOW_SERVER_VERSION == true) {
           embed.addField('Version', SERVER_VERSION + '\n\u200b\n', true)
         }
