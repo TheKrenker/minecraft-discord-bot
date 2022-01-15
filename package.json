@@ -1,0 +1,28 @@
+{
+  "name": "StoneMC Discord Bot",
+  "version": "1.0",
+  "description": "StoneMC Server Status",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js",
+    "update": "npm install",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "TheKrenker",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "discord.js": "^11.6.4",
+    "fetch-timeout": "0.0.2",
+    "libsodium-wrappers": "^0.7.4",
+    "minecraft-server-util": "^5.2.8",
+    "node-fetch": "^2.3.0",
+    "opusscript": "0.0.6",
+    "request": "^2.88.2",
+    "uws": "^100.0.1",
+    "ytdl-core": "^0.29.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  }
+}
