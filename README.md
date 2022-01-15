@@ -38,10 +38,10 @@ LOG_LEVEL: Dont change this...
 ```
 
 ### Functions:
-1. Server Status Embed ![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931918682924396544/unknown.png) ![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931918803602919444/unknown.png)
-2. Server Suggestion Channel ![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931919521894240317/unknown.png)
-3. Bug Channel ![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931919604006125618/unknown.png)
-3. Bug Logs Channel ![Screenshot](https://cdn.discordapp.com/attachments/786291224189206548/931919670716559430/unknown.png)
+1. Server Status Embed
+2. Server Suggestion Channel
+3. Bug Channel
+3. Bug Logs Channel
 
 ### Commands:
 1. +status {message} - To add a warning message in the server status embed
