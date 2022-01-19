@@ -28,16 +28,20 @@
     "USE_SUGGESTION_CHANNEL": true,
     "SUGGESTION_CHANNEL": "923272576103501874",
 
-    "_comment9": "Here you need to put the ID of the channel where you wanting to have the server bugs",
+    "_comment9": "Here you need to put the ID of the channel where you wanting to have the server changelogs",
+    "USE_CHANGELOGS_CHANNEL": true,
+    "CHANGELOGS_CHANNEL": "923271783971422259",
+
+    "_comment10": "Here you need to put the ID of the channel where you wanting to have the server bugs",
     "USE_BUG_CHANNEL": true,
     "BUG_CHANNEL": "931564650246574081",
 
-    "_comment10": "Here you need to put the ID of the channel where you wanting to have the server bugs logs",
+    "_comment11": "Here you need to put the ID of the channel where you wanting to have the server bugs logs",
     "BUG_LOG_CHANNEL": "931627893853937725",
 
-    "_comment11": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
+    "_comment12": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
     "LOG_CHANNEL": "931629152367435847",
 
-    "_comment12": "Dont change this...",
+    "_comment13": "Dont change this...",
     "LOG_LEVEL": "2"
 }

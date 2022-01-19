@@ -62,6 +62,16 @@ const TEMPLATE = {
     'required': false,
   },
 
+  'CHANGELOGS_CHANNEL': {
+    'message': "Here you need to put the ID of the channel where you wanting to have the server suggestion",
+    'required': false,
+  },
+
+  'USE_CHANGELOGS_CHANNEL': {
+    'message': "Enable or Disable the suggestion channel",
+    'required': false,
+  },
+
   'BUG_CHANNEL': {
     'message': "Here you need to put the ID of the channel where you wanting to have the server bugs",
     'required': false
