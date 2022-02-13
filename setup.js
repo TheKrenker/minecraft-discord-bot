@@ -2,62 +2,11 @@ const fs = require('fs');
 const readline = require('readline');
 
 const TEMPLATE = {
-<<<<<<< HEAD
-  'SERVER_ADDRESS': {
-    'message': "Here you need to put your server adress without the port. Example: 127.0.0.1 or play.hypixel.net",
-    'required': true,
-  },
-
-  'SERVER_PORT': {
-    'message': "Here you need to put your server port. Example: 25565",
-    'required': true,
-  },
-
-  'SHOW_SERVER_PORT': {
-    'message': "Enable or Disable the server port in de Playing status of the bot",
-    'required': false,
-  },
-
-  'SERVER_VERSION': {
-    'message': "Here you need to put your server version",
-    'required': false,
-  },
-  'SHOW_SERVER_VERSION': {
-    'message': "Enable or Disable the server version in the status message",
-    'required': false,
-  },
-
-  'UPDATE_TIME': {
-    'message': "This is the time that de Discord embed will be updated. (This is in MS. 2500 = 2.5 Seconds, 300000 = 5 minute)",
-    'required': false,
-  },
-
-=======
->>>>>>> 9fd68555a6ac9209780a12df57146422ded84dfc
   'BOT_TOKEN': {
     'message': "Here you need to put your Discord Bot Token (https://discord.com/developers/applications)",
     'required': true,
   },
 
-<<<<<<< HEAD
-  'STATUS_MESSAGE': {
-    'message': "Here you need to put the ID of the channel where you wanting the message to appear",
-    'required': false,
-  },
-
-  'USE_STATUS_MESSAGE': {
-    'message': "Enable or Disable the status message",
-    'required': false,
-  },
-
-  'MESSAGE_ID': {
-    'message': "This is the message that will be updating if you restart the bot",
-    'required': false,
-    'default': null
-  },
-
-=======
->>>>>>> 9fd68555a6ac9209780a12df57146422ded84dfc
   'SUGGESTION_CHANNEL': {
     'message': "Here you need to put the ID of the channel where you wanting to have the server suggestion",
     'required': false,

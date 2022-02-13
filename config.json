@@ -1,7 +1,5 @@
 {
-
     "_comment1": "Here you need to put your Discord Bot Token (https://discord.com/developers/applications)",
-<<<<<<< HEAD
     "BOT_TOKEN": "",
 
     "_comment2": "Here you need to put your server adress without the port. Example: 127.0.0.1 or play.hypixel.net",
@@ -41,29 +39,5 @@
     "BUG_LOG_CHANNEL": "",
 
     "_comment12": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
-    "LOG_CHANNEL": "",
-=======
-    "BOT_TOKEN": "OTQyNDE5NDc5NDk1ODUyMDYz.YgkOiQ.pHFTIggpuVWGKYWMmG-Wju8Nlfg",
-
-    "_comment8": "Here you need to put the ID of the channel where you wanting to have the server suggestion",
-    "USE_SUGGESTION_CHANNEL": true,
-    "SUGGESTION_CHANNEL": "934472755385102386",
-
-    "_comment9": "Here you need to put the ID of the channel where you wanting to have the server changelogs",
-    "USE_CHANGELOGS_CHANNEL": true,
-    "CHANGELOGS_CHANNEL": "936680263797342248",
-
-    "_comment10": "Here you need to put the ID of the channel where you wanting to have the server bugs",
-    "USE_BUG_CHANNEL": true,
-    "BUG_CHANNEL": "934472897806872596",
-
-    "_comment11": "Here you need to put the ID of the channel where you wanting to have the server bugs logs",
-    "BUG_LOG_CHANNEL": "934472812410847332",
-
-    "_comment12": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
-    "LOG_CHANNEL": "934472897806872596",
->>>>>>> 9fd68555a6ac9209780a12df57146422ded84dfc
-
-    "_comment13": "Dont change this...",
-    "LOG_LEVEL": "2"
+    "LOG_CHANNEL": ""
 }
