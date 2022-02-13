@@ -1,17 +1,18 @@
 {
+
     "_comment1": "Here you need to put your Discord Bot Token (https://discord.com/developers/applications)",
     "BOT_TOKEN": "",
 
     "_comment2": "Here you need to put your server adress without the port. Example: 127.0.0.1 or play.hypixel.net",
-    "SERVER_ADDRESS": "",
+    "SERVER_ADDRESS": "127.0.0.1",
 
     "_comment3": "Here you need to put your server port. Example: 25565",
-    "SHOW_SERVER_PORT": false,
-    "SERVER_PORT": 25565,
+    "SHOW_SERVER_PORT": true,
+    "SERVER_PORT": 25583,
 
     "_comment4": "Here you need to put your server version",
-    "SHOW_SERVER_VERSION": false,
-    "SERVER_VERSION": "",
+    "SHOW_SERVER_VERSION": true,
+    "SERVER_VERSION": "1.18.1",
 
     "_comment5": "This is the time that de Discord embed will be updated. (This is in MS. 2500 = 2.5 Seconds, 300000 = 5 minute)",
     "UPDATE_TIME": 2500,
@@ -39,5 +40,8 @@
     "BUG_LOG_CHANNEL": "",
 
     "_comment12": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
-    "LOG_CHANNEL": ""
+    "LOG_CHANNEL": "",
+
+    "_comment13": "Dont change this...",
+    "LOG_LEVEL": "2"
 }
