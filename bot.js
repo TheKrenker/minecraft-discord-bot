@@ -298,7 +298,7 @@ exports.start = function(SETUP) {
             embed2.setAuthor("Respect All Players")
             embed2.setColor(0x666666)
             embed2.setDescription("All players have the right to be spoken to or addressed in a respectful manner. Players are all users that play on the StoneMC Network.\n\u200b\n")
-            embed2.addField('What do we mean by Respecting Players?', 'Respecting players means that players should not create negative experiences for others.\n\u200b\n**Including:**\n```> Trolling\n> Discriminatiob\n> Bad language\n> Insulting\n> Encouraging violence\n> Sharing another players personal information\n> Media advertising\n> Spamming\n>  chat filters\n> Harassment of content creators\n> Discussion of inappropriate topics```')
+            embed2.addField('What do we mean by Respecting Players?', 'Respecting players means that players should not create negative experiences for others.\n\u200b\n**Including:**\n```> Trolling\n> Discrimination\n> Bad language\n> Insulting\n> Encouraging violence\n> Sharing another players personal information\n> Media advertising\n> Spamming\n> Bypass chat filters\n> Harassment of content creators\n> Discussion of inappropriate topics```')
 
             embed3.setAuthor("Cheating and Exploiting")
             embed3.setColor(0x666666)

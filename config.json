@@ -1,46 +1,46 @@
 {
 
     "_comment1": "Here you need to put your Discord Bot Token (https://discord.com/developers/applications)",
-    "BOT_TOKEN": "OTMxNjI3NDQyNzY5MTI1NDU2.YeHLqw.6s0tEpSesticidzReX_3bu_tGXM",
+    "BOT_TOKEN": "",
 
     "_comment2": "Here you need to put your server adress without the port. Example: 127.0.0.1 or play.hypixel.net",
-    "SERVER_ADDRESS": "185.53.163.80",
+    "SERVER_ADDRESS": "",
 
     "_comment3": "Here you need to put your server port. Example: 25565",
-    "SHOW_SERVER_PORT": true,
-    "SERVER_PORT": 25583,
+    "SHOW_SERVER_PORT": false,
+    "SERVER_PORT": 25565,
 
     "_comment4": "Here you need to put your server version",
-    "SHOW_SERVER_VERSION": true,
-    "SERVER_VERSION": "1.18.1",
+    "SHOW_SERVER_VERSION": false,
+    "SERVER_VERSION": "",
 
     "_comment5": "This is the time that de Discord embed will be updated. (This is in MS. 2500 = 2.5 Seconds, 300000 = 5 minute)",
     "UPDATE_TIME": 2500,
 
     "_comment6": "Here you need to put the ID of the channel where you wanting the message to appear",
-    "USE_STATUS_MESSAGE": true,
-    "STATUS_MESSAGE": "931639647573004328",
+    "USE_STATUS_MESSAGE": false,
+    "STATUS_MESSAGE": "",
 
     "_comment7": "This is the message that will be updating if you restart the bot",
-    "MESSAGE_ID": "931653150723686450",
+    "MESSAGE_ID": "",
 
     "_comment8": "Here you need to put the ID of the channel where you wanting to have the server suggestion",
-    "USE_SUGGESTION_CHANNEL": true,
-    "SUGGESTION_CHANNEL": "923272576103501874",
+    "USE_SUGGESTION_CHANNEL": false,
+    "SUGGESTION_CHANNEL": "",
 
     "_comment9": "Here you need to put the ID of the channel where you wanting to have the server changelogs",
-    "USE_CHANGELOGS_CHANNEL": true,
-    "CHANGELOGS_CHANNEL": "923271783971422259",
+    "USE_CHANGELOGS_CHANNEL": false,
+    "CHANGELOGS_CHANNEL": "",
 
     "_comment10": "Here you need to put the ID of the channel where you wanting to have the server bugs",
-    "USE_BUG_CHANNEL": true,
-    "BUG_CHANNEL": "931564650246574081",
+    "USE_BUG_CHANNEL": false,
+    "BUG_CHANNEL": "",
 
     "_comment11": "Here you need to put the ID of the channel where you wanting to have the server bugs logs",
-    "BUG_LOG_CHANNEL": "931627893853937725",
+    "BUG_LOG_CHANNEL": "",
 
     "_comment12": "Here you need to put the ID of the channel where you wanting to have the discord bot log",
-    "LOG_CHANNEL": "931629152367435847",
+    "LOG_CHANNEL": "",
 
     "_comment13": "Dont change this...",
     "LOG_LEVEL": "2"
