@@ -2,6 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 
 const TEMPLATE = {
+<<<<<<< HEAD
   'SERVER_ADDRESS': {
     'message': "Here you need to put your server adress without the port. Example: 127.0.0.1 or play.hypixel.net",
     'required': true,
@@ -31,11 +32,14 @@ const TEMPLATE = {
     'required': false,
   },
 
+=======
+>>>>>>> 9fd68555a6ac9209780a12df57146422ded84dfc
   'BOT_TOKEN': {
     'message': "Here you need to put your Discord Bot Token (https://discord.com/developers/applications)",
     'required': true,
   },
 
+<<<<<<< HEAD
   'STATUS_MESSAGE': {
     'message': "Here you need to put the ID of the channel where you wanting the message to appear",
     'required': false,
@@ -52,6 +56,8 @@ const TEMPLATE = {
     'default': null
   },
 
+=======
+>>>>>>> 9fd68555a6ac9209780a12df57146422ded84dfc
   'SUGGESTION_CHANNEL': {
     'message': "Here you need to put the ID of the channel where you wanting to have the server suggestion",
     'required': false,
